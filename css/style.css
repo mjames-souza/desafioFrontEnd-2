@@ -1,0 +1,42 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background: #bfc0c2;
+}
+
+form{
+  width: 300px;
+  padding: 40px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  background: #191919;
+  text-align: center;
+}
+h1{
+  color: rgb(255, 184, 184);
+  text-transform: uppercase;
+  font-weight: 500;
+  font-family: 'Otomanopee One', sans-serif;
+}
+div.textos{
+    margin: 20px auto;
+}
+input{
+    width: 200px;
+    padding: 14px 10px;
+    border: 2px hsl(234, 98%, 68%)
+}
+.btn{
+  border:0;
+  background: none;
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+  border: 2px solid #4661fa;
+  padding: 14px 40px;
+  color: white;
+  font-family: 'Otomanopee One', sans-serif;
+}
